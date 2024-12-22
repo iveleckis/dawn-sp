@@ -3,9 +3,9 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "hero_image": "hero-image.jpg",
-        "hero_heading": "Welcome to Our Store!",
-        "cta_text": "Shop Now",
+        "hero_image": "https://images.ctfassets.net/cnu0m8re1exe/43zTWZl6lt8vZ9Ov6nq0OS/5129b6367f0552f8602873ac19deacf3/silver-tabby-cat-sleeping.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill",
+        "hero_heading": "test!",
+        "cta_text": "Make your cat happy now!",
         "cta_link": "/products/product-handle"
       }
     },
