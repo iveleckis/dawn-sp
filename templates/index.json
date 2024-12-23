@@ -1,14 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "hero",
       "settings": {
+        "hero_image": "shopify://shop_images/266e13ea1f892461dcb641fef18eaea6.jpg",
         "hero_heading": "test!",
         "cta_text": "Make your cat happy now!",
         "cta_link": "/products/product-handle"
       }
-    },
- 
+    }
   },
-  "order": ["hero"]
+  "order": [
+    "hero"
+  ]
 }
