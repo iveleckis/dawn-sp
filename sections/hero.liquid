@@ -1,7 +1,27 @@
-<div class="hero">
-  <pre>Settings: {{ section.settings | json }}</pre>
+<style>
+  .hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  .hero img {
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    z-index: 2;
+  }
+</style>
 
-  <img height="auto" width="100%" src="{{ section.settings.hero_image }}" alt="Hero Image">
+<div class="hero">
+  <img height="auto" width="100%" src="{{ section.settings.hero_image | image_url }}" alt="Hero Image">
 
   <h1>{{ section.settings.hero_heading }}</h1>
   <a href="{{ section.settings.cta_link }}" class="btn">{{ section.settings.cta_text }}</a>
