@@ -1,11 +1,8 @@
 <div class="hero">
-  {% comment %}
-    {% if section.settings.hero_image != blank %}
-      <img height="100%" width="100%" src="{{ section.settings.hero_image | img_url: 'master' }}" alt="Hero Image">
-    {% else %}
-      <img height="100%" width="100%" src="{{ 'default-hero.jpg' | asset_url }}" alt="Default Hero">
-    {% endif %}
-  {% endcomment %}
+  <pre>Settings: {{ section.settings | json }}</pre>
+
+  <img height="auto" width="100%" src="{{ section.settings.hero_image }}" alt="Hero Image">
+
   <h1>{{ section.settings.hero_heading }}</h1>
   <a href="{{ section.settings.cta_link }}" class="btn">{{ section.settings.cta_text }}</a>
 </div>
@@ -13,7 +10,7 @@
 {
   "name": "Hero Section",
   "settings": [
-    { "type": "image_picker", "id": "hero_image", "label": "Hero Image" },
+    { "type": "image_picker", "id": "hero_image", "label": "Hero  " },
     { "type": "text", "id": "hero_heading", "label": "Heading", "default": "My test theme" },
     { "type": "text", "id": "cta_text", "label": "Button Text", "default": "Shop Now" },
     { "type": "url", "id": "cta_link", "label": "Button Link", "default": "/" }
