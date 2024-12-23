@@ -12,7 +12,7 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "hero_image": "shopify://shop_images/266e13ea1f892461dcb641fef18eaea6.jpg",
+        "hero_image": "shopify://shop_images/kittens-in-cave.webp",
         "hero_heading": "test!",
         "cta_text": "Make your cat happy now!",
         "cta_link": "/products/product-handle"
