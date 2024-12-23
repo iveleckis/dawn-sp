@@ -9,7 +9,7 @@
         "cta_link": "/products/product-handle"
       }
     },
-    "product-highlight": {
+   /*  "product-highlight": {
       "type": "product-highlight",
       "settings": {
         "title": "Our Featured Product",
@@ -17,7 +17,7 @@
         "product_image": "product-image.jpg",
         "product_variant_id": "1234567890"
       }
-    },
+    }, */
     "testimonials": {
       "type": "testimonials",
       "settings": {}
