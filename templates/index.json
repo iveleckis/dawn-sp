@@ -3,25 +3,12 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "hero_image": "https://images.ctfassets.net/cnu0m8re1exe/43zTWZl6lt8vZ9Ov6nq0OS/5129b6367f0552f8602873ac19deacf3/silver-tabby-cat-sleeping.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill",
         "hero_heading": "test!",
         "cta_text": "Make your cat happy now!",
         "cta_link": "/products/product-handle"
       }
     },
-   /*  "product-highlight": {
-      "type": "product-highlight",
-      "settings": {
-        "title": "Our Featured Product",
-        "description": "This product is amazing because...",
-        "product_image": "product-image.jpg",
-        "product_variant_id": "1234567890"
-      }
-    }, */
-    "testimonials": {
-      "type": "testimonials",
-      "settings": {}
-    }
+ 
   },
-  "order": ["hero", "product-highlight", "testimonials"]
+  "order": ["hero"]
 }

@@ -1,5 +1,5 @@
 <div class="hero">
-  <img height="100%" width="100%" src="{{ section.settings.hero_image | asset_url }}" alt="Hero Image">
+  {% comment %} <img height="100%" width="100%" src="{{ section.settings.hero_image | asset_url }}" alt="Hero Image"> {% endcomment %}
   <h1>{{ section.settings.hero_heading }}</h1>
   <a href="{{ section.settings.cta_link }}" class="btn">{{ section.settings.cta_text }}</a>
 </div>
@@ -7,10 +7,11 @@
 {
   "name": "Hero Section",
   "settings": [
-    { "type": "image_picker", "id": "hero_image", "label": "Hero Image" },
     { "type": "text", "id": "hero_heading", "label": "Heading", "default": "My test theme" },
     { "type": "text", "id": "cta_text", "label": "Button Text", "default": "Shop Now" },
     { "type": "url", "id": "cta_link", "label": "Button Link", "default": "/" }
   ]
 }
 {% endschema %}
+
+{% comment %} { "type": "image_picker", "id": "hero_image", "label": "Hero Image" }, {% endcomment %}
