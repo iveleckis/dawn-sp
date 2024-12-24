@@ -8,18 +8,18 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "hero_image": "shopify:\/\/shop_images\/kittens-in-cave.webp",
-        "hero_heading": "test!",
-        "cta_text": "Make your cat happy now!",
-        "cta_link": "\/products\/product-handle"
-      }
-    }
-  },
   "order": [
     "hero"
-  ]
+  ],
+  "sections": {
+    "hero": {
+      "settings": {
+        "cta_link": "/products/product-handle",
+        "cta_text": "Make your cat happy now!",
+        "hero_heading": "test!",
+        "hero_image": "shopify://shop_images/kittens-in-cave.webp"
+      },
+      "type": "hero"
+    }
+  }
 }
